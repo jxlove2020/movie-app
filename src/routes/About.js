@@ -5,11 +5,12 @@ function About(props) {
   console.log(props);
   return (
     <div className="about__container">
+      <span>Movie App (React JS)</span>
       <span>
-        “Freedom is the freedom to say that two plus two make four. If that is
-        granted, all else follows.”
+        Movie Database API 를 활용하여 영화 데이터의 정보를 보여주는 사이트
+        입니다.
       </span>
-      <span>− George Orwell, 1984</span>
+      <span>− Joseph</span>
     </div>
   );
 }
