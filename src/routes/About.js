@@ -5,7 +5,7 @@ function About(props) {
   console.log(props);
   return (
     <div className="about__container">
-      <span>Movie App (React JS)</span>
+      <h3>Movie App (React JS)</h3>
       <span>
         Movie Database API 를 활용하여 영화 데이터의 정보를 보여주는 사이트
         입니다.
